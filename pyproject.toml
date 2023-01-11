@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fake-sprout"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Debeaupuis <gdebeaupuis@plenty.ag>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fake-pup = {git = "git@github.com:gdebeaupuis-plenty/fake-pup.git", tag = "0.0.3"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
