@@ -11,7 +11,7 @@ files = []
 develop = false
 
 [package.dependencies]
-fds-client = {git = "ssh://git@github.com/gdebeaupuis-plenty/fake-fds.git", rev = "0.0.1"}
+fds-client = {git = "ssh://git@github.com/gdebeaupuis-plenty/fake-fds.git", rev = "0.0.1", subdirectory="python/fds_client"}
 
 [package.source]
 type = "git"
